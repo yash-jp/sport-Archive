@@ -1,0 +1,11 @@
+#description img {
+	float: right;
+}
+
+footer {
+	clear: right;
+}
+
+#images ul li {
+	display: inline-block;
+}

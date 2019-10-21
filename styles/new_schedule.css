@@ -1,0 +1,39 @@
+.hidden {
+	display: none;
+}
+
+.unhidden {
+	display: block;
+}
+
+.cricket_schedule {
+	background-color: white;
+}
+
+#cric {
+	color: blue;
+	border: 2px solid blue;
+	border-style: hidden;
+	font-size: 1.5em;
+}
+#hockey{
+	color: blueviolet;
+	border: 2px solid aqua;
+	font-size: 1.5em;
+	border-style: hidden;
+}
+#basketball{
+	color: red;
+	border-style: hidden;
+	font-size: 1.5em;
+}
+#football{
+	color: green;
+	border: 2px solid green;
+	border-style: hidden;
+	font-size: 1.5em;
+}
+.links{
+	border-bottom: 2px solid black;
+	font-family: cursive;
+}

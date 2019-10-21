@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Contact Us</title>
+
+		<meta charset = "utf-8">
+		
+		<link rel = "stylesheet" href ="styles/header.css">
+		<link rel = "stylesheet" href ="styles/footer.css">
+		<link rel = "stylesheet" href ="styles/ency.css">
+		<link rel = "stylesheet" href ="styles/contact_us.css">
+		<link rel="stylesheet" href="styles/test.css">
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">		
+		
+		<!--FAVICON-->
+		<link rel="shortcut icon" href="">
+		
+		<!--METATAGS-->
+		<meta name = "description" content ="Everything you need to know about cricket">
+		<meta name = "keywords" content ="cricket ">
+	</head>
+<body>
+		<div id = "wrapper">
+			<header>
+				<h1>Sports Archive</h1>
+			</header>
+			
+			<nav>
+				<ul>
+					<li><a href = "home.html">Home</a></li>
+					<li><a href = "trending.html">Trending</a></li>
+					 <li class="dropdown">
+      <a href="javascript:void(0)" class="dropbtn">Encyclopedia</a>
+    <div class="dropdown-content">
+      <a href="ency_cricket_about.html">Cricket</a>
+      <a href="ency_hockey_about.html">Hockey</a>
+      <a href="ency_football_about.html">BasketBall</a>
+      <a href="ency_football_about.html">FootBall</a>
+    </div>
+  </li>
+					<li><a href = "new_schedule.html">Schedule</a></li>
+					
+					<li><a href = "#">Login/SignUp</a></li>
+					<li><a href = "#">Contact us</a></li>
+				</ul>
+			</nav>
+			
+			<div id = "white_line">
+				---
+			</div>
+			
+			<div id="style">
+<form id="contact_form" action=" " method="POST" onsubmit="return validateForm();">
+  <div class="row">
+    <label class="required" for="name">Your name:</label><br />
+    <input id="name" name="name" type="text" value="" size="30" /><br />
+    <span id="name_validation" class="error"></span>
+  </div>
+  <div class="row">
+    <label class="required" for="email">Your email:</label><br />
+    <input id="email" name="email" type="text" value="" size="30" /><br />
+    <span id="email_validation" class="error"></span>
+  </div>
+  <div class="row">
+    <label class="required" for="message">Your message:</label><br />
+    <textarea id="message" name="message" rows="7" cols="30"></textarea><br />
+    <span id="message_validation" class="error"></span>
+  </div>
+    
+    <input type="submit" id="button" value="Send email" />
+</form>
+	</div>
+			<footer>
+				<div class = "footer-main">
+					<div class = "footer-inner">
+						<div class = "footer-left">
+							<div class = "footer-box">
+								<h6>Sports</h6>
+								<ul>
+									<li><a href="ency_cricket_about.html">Cricket</a></li>
+									<li><a href="ency_football_about.html">Football</a></li>
+									<li><a href="ency_hockey_about.html">Hockey</a></li>
+									<li><a href="#">BasketBall</a></li>
+								</ul>
+							</div>
+						</div>
+			
+				<div class = "footer-left">
+					<div class = "footer-box">
+						<h6><a href="home.html">Home</a></h6>
+						<h6><a href="trending.html">Trending</a></h6>
+						<h6><a href="#">Contact us</a></h6>
+					</div>
+				</div>
+			
+				<div class = "footer-left">
+					<div class = "footer-box">
+						<h6><a href="#">Follow us</a></h6>
+							<ul>
+								<li><a href = "#"><i class="fab fa-facebook-f"></i>  Facebook</a></li>
+								<li><a href = "#"><i class="fab fa-twitter"></i>  Twitter</a></li>
+								<li><a href = "#"><i class="fab fa-instagram"></i>  Instagram</a></li>
+								<li><a href = "#"><i class="fab fa-pinterest-p"></i>  Pintrest</a></li>
+								<li><a href = "#"><i class="fab fa-google-plus-g"></i>  Google Plus</a></li>
+								<li><a href = "#"><i class="far fa-envelope"></i>  Email</a></li>
+							</ul>
+					</div>
+				</div>
+			
+			<div class = "clr">
+			</div>
+		</div>
+	</div>
+</footer>
+
+	</div>
+	<script src="script/contact_us.js"></script>
+</body>
+</html>
